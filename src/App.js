@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, useHistory } from "react-router-dom";
 import React, { useState } from "react";
 import GlobalStyles from "./components/GlobalStyles";
 import styled from "styled-components";
@@ -32,6 +32,12 @@ function App() {
     setScoreIcon(PineCone);
     setPrizeBtn(PineConeGold);
   };
+
+  const history = useHistory()
+
+  const handleHistory = () => {
+    history.push("/")
+  }
 
   return (
     <DndProvider backend={HTML5Backend}>
