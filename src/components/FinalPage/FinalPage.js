@@ -27,7 +27,10 @@ const FinalPage = (props) => {
         alt="gold pine cone"
       />
 
-      <img className="key gold-acorn" src={AcornGold} alt="gold acorn" />
+      <img 
+        className="key gold-acorn" 
+        src={AcornGold} 
+        alt="gold acorn" />
 
       {/* Central Exit Button */}
       <div className="central-key">
