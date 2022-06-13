@@ -16,14 +16,11 @@ const GlobalStyles = createGlobalStyle `
   }
 
   
-  body {
-    font-family: 'Poppins', sans-serif;
-     font-weight: 600;
-  }
+  // body {
+  //   font-family: 'Poppins', sans-serif;
+  //    font-weight: 600;
+  // }
 
- *::-webkit-scrollbar {
-   width: 8px;
- }
 
 
 `
