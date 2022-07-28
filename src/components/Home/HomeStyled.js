@@ -5,10 +5,12 @@ export const HomeStyled = styled.section`
   .contrainer-wrapper {
     width: 90%;
     margin: auto;
+   
+    
   }
   .container {
-    width: 900px;
-    height: 900px;
+    width: 800px;
+    height: 800px;
     margin: auto;
     background-color: rgba(259, 259, 259, 0.5);
     border-radius: 50%;
