@@ -46,7 +46,7 @@ export const HomeStyled = styled.section`
 
 
     button {
-      margin-top: 2rem;
+      margin-top: 1rem;
       background: radial-gradient(
         ellipse at center,
         #b8c6c6 0%,
