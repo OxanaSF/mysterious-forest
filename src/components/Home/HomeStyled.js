@@ -3,11 +3,18 @@ import forestImg from "../../assets/images/forest.jpg";
 
 export const HomeStyled = styled.section`
   .contrainer-wrapper {
-    width: 90%;
+    /* width: 90%; */
     margin: auto;
+ 
    
     
   }
+
+  .outer-container {
+ 
+  }
+
+
   .container {
     width: 800px;
     height: 800px;

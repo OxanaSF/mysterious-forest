@@ -14,6 +14,7 @@ const Home = (props) => {
         ))}
 
         <div className="contrainer-wrapper">
+          <div className="outer-container">
           <div className="container">
             <div>
               <h1>Mysterious </h1>
@@ -28,6 +29,7 @@ const Home = (props) => {
             <Link to="quizeasy">
               <button className="btn-begin"> Begin </button>
             </Link>
+          </div>
           </div>
         </div>
       </div>
