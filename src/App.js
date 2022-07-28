@@ -106,7 +106,7 @@ function App() {
       </Router>
 
 
-<Footer />
+{/* <Footer /> */}
       </DndProvider>
   );
 }

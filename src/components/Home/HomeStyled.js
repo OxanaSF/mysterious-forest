@@ -9,8 +9,8 @@ export const HomeStyled = styled.section`
   }
 
   .container {
-    width: 800px;
-    height: 800px;
+    width: 600px;
+    height: 600px;
     margin: auto;
     background-color: rgba(259, 259, 259, 0.5);
     border-radius: 50%;
@@ -21,6 +21,7 @@ export const HomeStyled = styled.section`
     padding-top: 10%;
     align-items: center;
     font-size: 5rem;
+    font-size: 3rem;
     text-align: center;
  
  
@@ -36,6 +37,7 @@ export const HomeStyled = styled.section`
     p {
       width: 60%;
       font-size: 1.2rem;
+      font-size: 1rem;
       line-height: 1.9;
       letter-spacing: 2px;
       font-family: 'Lobster Two', cursive;
@@ -52,10 +54,13 @@ export const HomeStyled = styled.section`
         #324d4e 100%
       );
       height: 130px;
+      height: 100px;
       width: 130px;
+      width: 100px;
       padding: 1.5rem;
       color: white;
       font-size: 1.7rem;
+      font-size: 1.2rem;
       letter-spacing: 2px;
       border: none;
       cursor: pointer;
