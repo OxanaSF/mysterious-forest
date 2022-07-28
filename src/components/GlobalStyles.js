@@ -21,7 +21,10 @@ const GlobalStyles = createGlobalStyle `
      font-weight: 600;
   }
 
-
+  *::-webkit-scrollbar {
+    width: 8px;
+  }
+ 
 
 `
 

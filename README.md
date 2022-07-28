@@ -45,7 +45,7 @@ This website contains a three-level game. First two levels are quiz based, last 
 - Oxana Howard - Developer
   - [Website](https://github.com/OxanaSF)
   - [Linkedin](https://www.linkedin.com/in/oxana-howard/)
-  - [Linkedin](https://www.linkedin.com/in/dillon-chhit-8b0328222/)
+  
 
 
 
