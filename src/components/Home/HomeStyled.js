@@ -10,14 +10,14 @@ export const HomeStyled = styled.section`
     
   }
 
-  .outer-container {
- 
-  }
+  .contrainer-wrapper {
+      height: 90%;
+    }
 
 
   .container {
-    width: 800px;
-    height: 800px;
+    width: 700px;
+    height: 700px;
     margin: auto;
     background-color: rgba(259, 259, 259, 0.5);
     border-radius: 50%;
@@ -64,14 +64,16 @@ export const HomeStyled = styled.section`
     }
   }
 
+  @media (max-width: 1440px) {
+  
+  }
+
   @media (max-width: 880px) {
     .canvas {
       height: 896px;
     }
 
-    .contrainer-wrapper {
-      height: 90%;
-    }
+   
 
     .container {
       display: flex;
