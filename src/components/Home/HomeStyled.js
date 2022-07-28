@@ -2,15 +2,10 @@ import styled from 'styled-components';
 import forestImg from '../../assets/images/forest.jpg';
 
 export const HomeStyled = styled.section`
-  .contrainer-wrapper {
-    /* width: 90%; */
-    margin: auto;
-    overflow: auto;
-    text-align: justify;
-  }
+
 
   .contrainer-wrapper {
-    /* height: 90%; */
+
   }
 
   .container {
@@ -27,6 +22,10 @@ export const HomeStyled = styled.section`
     align-items: center;
     font-size: 5rem;
     text-align: center;
+ 
+ 
+   
+
 
     h1 {
       cursor: pointer;
@@ -42,8 +41,10 @@ export const HomeStyled = styled.section`
       font-family: 'Lobster Two', cursive;
     }
 
+
+
     button {
-      margin-top: 3rem;
+      margin-top: 2rem;
       background: radial-gradient(
         ellipse at center,
         #b8c6c6 0%,
@@ -130,7 +131,7 @@ export const HomeStyled = styled.section`
     }
 
     .canvas {
-      height: 100vh;
+      min-height: 100vh;
       background-image: url(${forestImg});
       background-repeat: no-repeat;
       background-size: cover;

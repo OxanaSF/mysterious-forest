@@ -7,6 +7,7 @@ import QuizEasy from "./components/Quiz/QuizEasy/QuizEasy";
 import QuizMedium from "./components/Quiz/QuizMedium/QuizMedium";
 import GuessNumber from "./components/Quiz/GuessNumber/GuessNumber";
 import FinalPage from "./components/FinalPage/FinalPage";
+import Footer from "./components/Footer";
 
 import {DndProvider} from 'react-dnd'
 import {HTML5Backend} from 'react-dnd-html5-backend'
@@ -103,6 +104,9 @@ function App() {
           </Routes>
         </AppWrapperStyled>
       </Router>
+
+
+<Footer />
       </DndProvider>
   );
 }

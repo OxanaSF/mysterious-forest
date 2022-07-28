@@ -10,6 +10,7 @@ const Footer = () => {
 };
 
 const FooterStyled = styled.footer`
+
   min-height: 5rem;
   display: flex;
   justify-content: center;
