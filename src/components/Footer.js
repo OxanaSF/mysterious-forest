@@ -1,5 +1,5 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 
 const Footer = () => {
   return (
@@ -10,10 +10,6 @@ const Footer = () => {
 };
 
 const FooterStyled = styled.footer`
-  /* position: absolute;
-  bottom: 0px;
-  width: 100%; */
-
   min-height: 5rem;
   display: flex;
   justify-content: center;
@@ -28,7 +24,6 @@ const FooterStyled = styled.footer`
   @media (max-width: 880px) {
     font-size: 0.8rem;
     min-height: 4rem;
-   
   }
 
   @media (max-width: 390px) {

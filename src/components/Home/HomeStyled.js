@@ -2,30 +2,24 @@ import styled from 'styled-components';
 import forestImg from '../../assets/images/forest.jpg';
 
 export const HomeStyled = styled.section`
-    /* padding-bottom: 5rem;
-    outline: 2px solid red;
-    position: relative; */
-
-.canvas {
-    /* min-height: 150vh; */
+  .canvas {
     min-height: fit-content;
-    
+
     overflow-y: scroll;
     padding: 3rem;
     min-height: 100vh;
-    
-      background-image: url(${forestImg});
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
-      opacity: 0.9;
-      padding-top: 6rem;
-      position: relative;
-      overflow: hidden;
-}
+
+    background-image: url(${forestImg});
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+    padding-top: 6rem;
+    position: relative;
+    overflow: hidden;
+  }
 
   .container {
-    
     width: 800px;
     height: 800px;
     margin: auto;
@@ -40,7 +34,6 @@ export const HomeStyled = styled.section`
     font-size: 5rem;
     /* font-size: 3rem; */
     text-align: center;
- 
 
     h1 {
       cursor: pointer;
@@ -57,8 +50,6 @@ export const HomeStyled = styled.section`
       font-family: 'Lobster Two', cursive;
     }
 
-
-
     button {
       margin-top: 1rem;
       background: radial-gradient(
@@ -68,13 +59,10 @@ export const HomeStyled = styled.section`
         #324d4e 100%
       );
       height: 130px;
-      /* height: 100px; */
       width: 130px;
-      /* width: 100px; */
       padding: 1.5rem;
       color: white;
       font-size: 1.7rem;
-      /* font-size: 1.2rem; */
       letter-spacing: 2px;
       border: none;
       cursor: pointer;
@@ -83,32 +71,29 @@ export const HomeStyled = styled.section`
   }
 
   @media (max-width: 1440px) {
+    .container {
+      width: 600px;
+      height: 600px;
+      padding: 4rem;
 
-  .container {
-    width: 600px;
-    height: 600px;
-    padding: 4rem;
+      h1 {
+        font-size: 5.5rem;
+      }
 
-    h1 {
-      font-size: 5.5rem;
-    }
+      p {
+        font-size: 1rem;
+      }
 
-    p {
-      font-size: 1rem;
-    }
-
-    button {
-      height: 100px;
-      width: 100px;
-      font-size: 1.3rem;
-      padding: 1rem;
+      button {
+        height: 100px;
+        width: 100px;
+        font-size: 1.3rem;
+        padding: 1rem;
+      }
     }
   }
-}
-  
 
   @media (max-width: 880px) {
-    
     .canvas {
       min-height: 100vh;
       background-image: url(${forestImg});
@@ -119,20 +104,17 @@ export const HomeStyled = styled.section`
       padding-top: 6rem;
       position: relative;
       overflow: hidden;
-
     }
 
     .container {
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
-      /* padding-top: 20%; */
       width: 100%;
       height: 100%;
       border-radius: 1rem;
       font-size: 3rem;
 
- 
       p {
         margin: 2.5rem;
         font-size: 1.2rem;
@@ -181,10 +163,7 @@ export const HomeStyled = styled.section`
         );
       }
     }
-
-    
   }
-
 
   .bubble {
     display: block;
