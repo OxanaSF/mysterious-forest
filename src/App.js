@@ -1,41 +1,37 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import React, { useState } from "react";
-import GlobalStyles from "./components/GlobalStyles";
-import styled from "styled-components";
-import Home from "./components/Home/Home";
-import QuizEasy from "./components/Quiz/QuizEasy/QuizEasy";
-import QuizMedium from "./components/Quiz/QuizMedium/QuizMedium";
-import GuessNumber from "./components/Quiz/GuessNumber/GuessNumber";
-import FinalPage from "./components/FinalPage/FinalPage";
-import Footer from "./components/Footer";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import React, { useState } from 'react';
+import GlobalStyles from './components/GlobalStyles';
+import styled from 'styled-components';
+import Home from './components/Home/Home';
+import QuizEasy from './components/Quiz/QuizEasy/QuizEasy';
+import QuizMedium from './components/Quiz/QuizMedium/QuizMedium';
+import GuessNumber from './components/Quiz/GuessNumber/GuessNumber';
+import FinalPage from './components/FinalPage/FinalPage';
 
-import {DndProvider} from 'react-dnd'
-import {HTML5Backend} from 'react-dnd-html5-backend'
+import { DndProvider } from 'react-dnd';
+import { HTML5Backend } from 'react-dnd-html5-backend';
 
-import PineCone from "./assets/images/pine-cone-blue.png";
-import PineConeGold from "./assets/images/pine-cone-gold.png";
+import PineCone from './assets/images/pine-cone-blue.png';
+import PineConeGold from './assets/images/pine-cone-gold.png';
 
-import { totalResultInit } from "./components/utils/totalRewardDisplay";
-import { easyLevelText } from "./components/utils/textDisplay";
+import { totalResultInit } from './components/utils/totalRewardDisplay';
+import { easyLevelText } from './components/utils/textDisplay';
 
 function App() {
   const [totalResult, setTotalResult] = useState(totalResultInit);
   const [textDisplay, setTextDisplay] = useState(easyLevelText);
   const [scoreIcon, setScoreIcon] = useState(PineCone);
   const [prizeBtn, setPrizeBtn] = useState(PineConeGold);
-  const [linkToPage, setLinkToPage] = useState("");
-  const [quizEasyStyle, setQuizEasyStyle] = useState("trivia-item__button")
+  const [linkToPage, setLinkToPage] = useState('');
+  const [quizEasyStyle, setQuizEasyStyle] = useState('trivia-item__button');
 
-  const goldPrizeStyle = "";
+  const goldPrizeStyle = '';
 
   const reload = () => {
     setTotalResult(totalResultInit);
     setScoreIcon(PineCone);
     setPrizeBtn(PineConeGold);
   };
-
-
-
 
   return (
     <DndProvider backend={HTML5Backend}>
@@ -105,16 +101,15 @@ function App() {
         </AppWrapperStyled>
       </Router>
 
-
-{/* <Footer /> */}
-      </DndProvider>
+   
+    </DndProvider>
   );
 }
 
 const AppWrapperStyled = styled.div`
   min-height: 98.5vh;
   margin: 0;
-    padding: 0;
+  padding: 0;
 `;
 
 export default App;
