@@ -90,8 +90,9 @@ export const HomeStyled = styled.section`
       font-size: 1.3rem;
       padding: 1rem;
     }
-    
   }
+}
+  
 
   @media (max-width: 880px) {
     .canvas {
