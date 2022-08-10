@@ -113,8 +113,8 @@ function App() {
 
 const AppWrapperStyled = styled.div`
   min-height: 98.5vh;
-  margin: 5px 5px 0 5px;
-  padding: 5px 5px 0 5px;
+  margin: 0;
+    padding: 0;
 `;
 
 export default App;

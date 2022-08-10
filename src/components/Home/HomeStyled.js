@@ -2,10 +2,10 @@ import styled from 'styled-components';
 import forestImg from '../../assets/images/forest.jpg';
 
 export const HomeStyled = styled.section`
-
+    
 
 .canvas {
-    min-height: 150vh;
+    height: 150vh;
 }
 
   .container {
