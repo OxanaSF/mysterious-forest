@@ -107,7 +107,7 @@ function App() {
 }
 
 const AppWrapperStyled = styled.div`
-  min-height: 98.5vh;
+  height: 98.5vh;
   margin: 0;
   padding: 0;
 `;
