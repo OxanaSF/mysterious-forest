@@ -5,7 +5,7 @@ export const HomeStyled = styled.section`
 
 
 .canvas {
-    height: 150vh;
+    min-height: 150vh;
     
 }
 
