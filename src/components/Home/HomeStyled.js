@@ -2,14 +2,30 @@ import styled from 'styled-components';
 import forestImg from '../../assets/images/forest.jpg';
 
 export const HomeStyled = styled.section`
-
+    /* padding-bottom: 5rem;
+    outline: 2px solid red;
+    position: relative; */
 
 .canvas {
-    min-height: 150vh;
+    /* min-height: 150vh; */
+    min-height: fit-content;
     
+    overflow-y: scroll;
+    padding: 3rem;
+    min-height: 100vh;
+    
+      background-image: url(${forestImg});
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      opacity: 0.9;
+      padding-top: 6rem;
+      position: relative;
+      overflow: hidden;
 }
 
   .container {
+    
     width: 800px;
     height: 800px;
     margin: auto;
@@ -25,9 +41,6 @@ export const HomeStyled = styled.section`
     /* font-size: 3rem; */
     text-align: center;
  
- 
-   
-
 
     h1 {
       cursor: pointer;
@@ -95,20 +108,31 @@ export const HomeStyled = styled.section`
   
 
   @media (max-width: 880px) {
+    
     .canvas {
-      height: 896px;
+      min-height: 100vh;
+      background-image: url(${forestImg});
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      opacity: 0.9;
+      padding-top: 6rem;
+      position: relative;
+      overflow: hidden;
+
     }
 
     .container {
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
-      padding-top: 20%;
+      /* padding-top: 20%; */
       width: 100%;
       height: 100%;
       border-radius: 1rem;
       font-size: 3rem;
 
+ 
       p {
         margin: 2.5rem;
         font-size: 1.2rem;
@@ -158,30 +182,10 @@ export const HomeStyled = styled.section`
       }
     }
 
-    .canvas {
-      min-height: 100vh;
-      background-image: url(${forestImg});
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
-      opacity: 0.9;
-      padding-top: 6rem;
-      position: relative;
-      overflow: hidden;
-    }
+    
   }
 
-  .canvas {
-    height: 100vh;
-    background-image: url(${forestImg});
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    opacity: 0.9;
-    padding-top: 6rem;
-    position: relative;
-    overflow: hidden;
-  }
+
   .bubble {
     display: block;
     border-radius: 100%;

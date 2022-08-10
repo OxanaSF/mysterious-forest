@@ -10,6 +10,9 @@ const Footer = () => {
 };
 
 const FooterStyled = styled.footer`
+  /* position: absolute;
+  bottom: 0px;
+  width: 100%; */
 
   min-height: 5rem;
   display: flex;
