@@ -69,6 +69,27 @@ export const HomeStyled = styled.section`
   }
 
   @media (max-width: 1440px) {
+
+  .container {
+    width: 600px;
+    height: 600px;
+    padding: 4rem;
+
+    h1 {
+      font-size: 5.5rem;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+
+    button {
+      height: 100px;
+      width: 100px;
+      font-size: 1.3rem;
+      padding: 1rem;
+    }
+    
   }
 
   @media (max-width: 880px) {
